@@ -1,0 +1,31 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+class Tareas {
+    - actividades: Actividad[0..*]
+    - cantidad: integer = 0
+    - personaCargo: String
+
+    + init()
+    + destroy()
+    + agregar(a: Actividad): void
+    + eliminar(a: Actividodad): void
+    + esVacia(): bool
+    + vaciar(): void
+    + getPersona(): string
+    + setPersona(n: string): void
+}
+
+class Persona {
+    - nombre: string
+    - edad: integer
+
+    + init(n: string, e: int)
+    + destroy()
+    + setNombre(n: string): void
+    + getNombre(): string
+    + setEdad(e: integer): void
+    + getEdad(): integer
+}
+
+@enduml
