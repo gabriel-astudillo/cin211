@@ -5,3 +5,5 @@
 </figure>
 
 # CIN211 Programación avanzada
+
+Para estudiar y trabajar con los ejemplos y tareas que están en este repositorio, recuerde que se deben copiar a la carpeta `workspace` de su ambiente de desarrollo.
